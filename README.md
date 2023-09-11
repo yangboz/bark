@@ -187,6 +187,16 @@ and additional packages. Steps to get started:
 ```
 pip install git+https://github.com/huggingface/transformers.git
 ```
+if failed install during pip sub-process
+
+please 
+```
+git clone https://github.com/huggingface/transformers.git
+```
+at first,then 
+```
+cd transformers && install -e . 
+```
 
 2. Run the following Python code to generate speech samples:
 
